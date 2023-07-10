@@ -1,0 +1,40 @@
+.home {
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.home-content {
+  max-width: 800px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
